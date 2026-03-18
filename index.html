@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Morgan — Web Developer</title>
+
+  <!-- Google Fonts: Space Grotesk (display/headers) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ======================================================
+       NAVIGATION
+  ====================================================== -->
+  <header>
+    <nav class="nav">
+      <a href="#" class="nav-logo">Alex Morgan</a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Hamburger button — visible on mobile only -->
+      <button
+        class="nav-hamburger"
+        id="nav-hamburger"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- ======================================================
+         HERO SECTION
+    ====================================================== -->
+    <section id="hero">
+      <div class="hero-inner">
+        <p class="hero-eyebrow">Web Developer</p>
+        <h1 class="hero-title">Alex<br />Morgan</h1>
+        <p class="hero-tagline">
+          I build fast, clean websites for small businesses and startups.
+        </p>
+        <a href="#projects" class="btn btn-primary">See My Work</a>
+      </div>
+
+      <!-- Decorative concentric circles — purely visual -->
+      <div class="hero-decoration" aria-hidden="true"></div>
+    </section>
+
+
+    <!-- ======================================================
+         SKILLS SECTION
+    ====================================================== -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">What I Work With</h2>
+      </div>
+
+      <!-- Marquee: full-bleed infinite horizontal ticker of technology logos -->
+      <div class="marquee-viewport" aria-label="Technologies I work with">
+        <div class="marquee-track">
+
+          <!-- First set of logos (readable by assistive tech) -->
+          <ul class="marquee-list">
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="marquee-logo" />
+              <span class="marquee-label">HTML5</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="marquee-logo" />
+              <span class="marquee-label">CSS3</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="marquee-logo" />
+              <span class="marquee-label">JavaScript</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" class="marquee-logo" />
+              <span class="marquee-label">Tailwind CSS</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="marquee-logo" />
+              <span class="marquee-label">React</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" class="marquee-logo" />
+              <span class="marquee-label">Next.js</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="marquee-logo" />
+              <span class="marquee-label">Python</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="marquee-logo" />
+              <span class="marquee-label">Git</span>
+            </li>
+          </ul>
+
+          <!-- Duplicate set 2 — hidden from assistive tech, enables seamless loop -->
+          <ul class="marquee-list" aria-hidden="true">
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">HTML5</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">CSS3</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">JavaScript</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Tailwind CSS</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">React</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Next.js</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Python</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Git</span>
+            </li>
+          </ul>
+
+          <!-- Duplicate set 3 -->
+          <ul class="marquee-list" aria-hidden="true">
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">HTML5</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">CSS3</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">JavaScript</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Tailwind CSS</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">React</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Next.js</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Python</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Git</span>
+            </li>
+          </ul>
+
+          <!-- Duplicate set 4 -->
+          <ul class="marquee-list" aria-hidden="true">
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">HTML5</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">CSS3</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">JavaScript</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Tailwind CSS</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">React</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Next.js</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Python</span>
+            </li>
+            <li class="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" class="marquee-logo" />
+              <span class="marquee-label">Git</span>
+            </li>
+          </ul>
+
+        </div><!-- /marquee-track -->
+      </div><!-- /marquee-viewport -->
+
+    </section>
+
+
+    <!-- ======================================================
+         PROJECTS SECTION
+    ====================================================== -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">My Work</h2>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: tall left — spans 2 rows -->
+          <article
+            class="project-card"
+            data-title="Small Business Website"
+            data-description="A responsive, fast-loading website built for a local business. Designed to convert visitors into customers with a clear layout, strong calls to action, and a mobile-first approach."
+            data-img="/images/project-1.svg"
+            data-img-alt="Screenshot of small business website"
+            tabindex="0"
+            role="button"
+            aria-label="View project: Small Business Website"
+          >
+            <span class="bento-index" aria-hidden="true">01</span>
+            <div class="project-thumb">
+              <img
+                src="/images/project-1.svg"
+                alt="Screenshot of small business website"
+                class="project-img"
+              />
+              <div class="project-overlay" aria-hidden="true">
+                <span class="project-view-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Small Business Website</h3>
+              <p class="project-desc">Conversion-focused website for a local business client.</p>
+            </div>
+          </article>
+
+          <!-- Project 2: top-centre -->
+          <article
+            class="project-card"
+            data-title="Startup Landing Page"
+            data-description="A high-impact landing page built with Next.js for a tech startup. Optimized for performance and SEO, with smooth animated sections and a clear sign-up flow that drives conversions."
+            data-img="/images/project-2.svg"
+            data-img-alt="Screenshot of startup landing page"
+            tabindex="0"
+            role="button"
+            aria-label="View project: Startup Landing Page"
+          >
+            <span class="bento-index" aria-hidden="true">02</span>
+            <div class="project-thumb">
+              <img
+                src="/images/project-2.svg"
+                alt="Screenshot of startup landing page"
+                class="project-img"
+              />
+              <div class="project-overlay" aria-hidden="true">
+                <span class="project-view-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Startup Landing Page</h3>
+              <p class="project-desc">Performance-optimized Next.js page with animated sections.</p>
+            </div>
+          </article>
+
+          <!-- Project 3: bottom-centre -->
+          <article
+            class="project-card"
+            data-title="Portfolio Site"
+            data-description="A personal portfolio website with a custom contact form, smooth scroll navigation, and a fully responsive layout. Built entirely from scratch — no frameworks, no templates, no shortcuts."
+            data-img="/images/project-3.svg"
+            data-img-alt="Screenshot of portfolio website"
+            tabindex="0"
+            role="button"
+            aria-label="View project: Portfolio Site"
+          >
+            <span class="bento-index" aria-hidden="true">03</span>
+            <div class="project-thumb">
+              <img
+                src="/images/project-3.svg"
+                alt="Screenshot of portfolio website"
+                class="project-img"
+              />
+              <div class="project-overlay" aria-hidden="true">
+                <span class="project-view-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Portfolio Site</h3>
+              <p class="project-desc">Custom-built portfolio with smooth scroll and responsive layout.</p>
+            </div>
+          </article>
+
+          <!-- Project 4: tall right — spans 2 rows -->
+          <article
+            class="project-card"
+            data-title="E-commerce Store"
+            data-description="A full-featured online store built for a fashion brand. Includes product filtering, cart functionality, and a streamlined checkout flow optimised for mobile shoppers."
+            data-img="/images/project-4.svg"
+            data-img-alt="Screenshot of e-commerce store"
+            tabindex="0"
+            role="button"
+            aria-label="View project: E-commerce Store"
+          >
+            <span class="bento-index" aria-hidden="true">04</span>
+            <div class="project-thumb">
+              <img
+                src="/images/project-4.svg"
+                alt="Screenshot of e-commerce store"
+                class="project-img"
+              />
+              <div class="project-overlay" aria-hidden="true">
+                <span class="project-view-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">E-commerce Store</h3>
+              <p class="project-desc">Fashion brand store with cart and mobile-optimised checkout.</p>
+            </div>
+          </article>
+
+          <!-- Project 5: wide bottom-left -->
+          <article
+            class="project-card"
+            data-title="Restaurant Website"
+            data-description="A warm, inviting website for an independent restaurant. Features an interactive menu, online reservation system, and gallery section — all optimised for local SEO."
+            data-img="/images/project-5.svg"
+            data-img-alt="Screenshot of restaurant website"
+            tabindex="0"
+            role="button"
+            aria-label="View project: Restaurant Website"
+          >
+            <span class="bento-index" aria-hidden="true">05</span>
+            <div class="project-thumb">
+              <img
+                src="/images/project-5.svg"
+                alt="Screenshot of restaurant website"
+                class="project-img"
+              />
+              <div class="project-overlay" aria-hidden="true">
+                <span class="project-view-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Restaurant Website</h3>
+              <p class="project-desc">Inviting site with online reservations and local SEO optimisation.</p>
+            </div>
+          </article>
+
+          <!-- Project 6: wide bottom-right -->
+          <article
+            class="project-card"
+            data-title="Blog Platform"
+            data-description="A custom-built blog with a rich text editor, tag filtering, and dark mode toggle. Designed for long-form reading with a focus on typography and a distraction-free layout."
+            data-img="/images/project-6.svg"
+            data-img-alt="Screenshot of blog platform"
+            tabindex="0"
+            role="button"
+            aria-label="View project: Blog Platform"
+          >
+            <span class="bento-index" aria-hidden="true">06</span>
+            <div class="project-thumb">
+              <img
+                src="/images/project-6.svg"
+                alt="Screenshot of blog platform"
+                class="project-img"
+              />
+              <div class="project-overlay" aria-hidden="true">
+                <span class="project-view-label">View Project</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Blog Platform</h3>
+              <p class="project-desc">Custom blog with rich text editor, tag filtering, and dark mode.</p>
+            </div>
+          </article>
+
+        </div><!-- /projects-grid -->
+      </div>
+    </section>
+
+
+    <!-- ======================================================
+         CONTACT SECTION
+    ====================================================== -->
+    <section id="contact">
+      <div class="container contact-inner">
+
+        <div class="contact-text">
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="contact-desc">
+            Have a project in mind? I'd love to hear about it.
+            Fill in the form and I'll get back to you within 24 hours.
+          </p>
+          <p class="contact-booking">
+            <span class="contact-booking-label">Prefer a call?</span>
+            <!--
+              Replace the href="#" below with your real booking link
+              (e.g. your Calendly URL) when you have one ready.
+            -->
+            <a href="#" class="contact-booking-link">Book a call &rarr;</a>
+          </p>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Jane Smith"
+              autocomplete="name"
+            />
+            <span class="form-error" id="name-error" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="jane@example.com"
+              autocomplete="email"
+            />
+            <span class="form-error" id="email-error" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">What do you need help with?</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell me about your project..."
+            ></textarea>
+            <span class="form-error" id="message-error" role="alert"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+
+          <p class="form-success" id="form-success" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ======================================================
+       FOOTER
+  ====================================================== -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; 2026 Alex Morgan</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+
+  <!-- ======================================================
+       PROJECT MODAL
+       Opens when a project card is clicked.
+  ====================================================== -->
+  <div
+    class="modal-overlay"
+    id="modal-overlay"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-title"
+    aria-hidden="true"
+  >
+    <div class="modal">
+      <button
+        class="modal-close"
+        id="modal-close"
+        aria-label="Close project details"
+      >&times;</button>
+
+      <img src="" alt="" class="modal-img" id="modal-img" />
+
+      <div class="modal-body">
+        <h3 class="modal-title" id="modal-title"></h3>
+        <p class="modal-desc" id="modal-desc"></p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

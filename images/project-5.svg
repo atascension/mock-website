@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="heroGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1a0f"/>
+      <stop offset="100%" style="stop-color:#1a2e1c"/>
+    </linearGradient>
+    <linearGradient id="plateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d4a20"/>
+      <stop offset="100%" style="stop-color:#1e3315"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Page background -->
+  <rect width="800" height="600" fill="#0d1a0f"/>
+
+  <!-- ── NAV BAR ── -->
+  <rect width="800" height="58" fill="rgba(13,26,15,0.9)"/>
+  <rect y="58" width="800" height="1" fill="rgba(180,160,100,0.25)"/>
+  <!-- Logo -->
+  <text x="50" y="35" font-size="11" fill="#b4a064" letter-spacing="5" font-family="Georgia,serif" font-weight="400">SAISON</text>
+  <line x1="50" y1="40" x2="124" y2="40" stroke="#b4a064" stroke-width="0.5" opacity="0.5"/>
+  <text x="50" y="50" font-size="7" fill="#6a7a5a" letter-spacing="3">RESTAURANT &amp; BAR</text>
+  <!-- Nav links -->
+  <text x="370" y="33" font-size="9" fill="#ccc" letter-spacing="2" text-anchor="middle">MENU</text>
+  <text x="450" y="33" font-size="9" fill="#ccc" letter-spacing="2" text-anchor="middle">ABOUT</text>
+  <text x="530" y="33" font-size="9" fill="#ccc" letter-spacing="2" text-anchor="middle">EVENTS</text>
+  <!-- Reserve button -->
+  <rect x="640" y="18" width="120" height="28" fill="none" stroke="#b4a064" stroke-width="1"/>
+  <text x="700" y="36" font-size="8.5" fill="#b4a064" text-anchor="middle" letter-spacing="2">RESERVE A TABLE</text>
+
+  <!-- ── HERO SECTION ── -->
+  <rect y="59" width="800" height="260" fill="#0d1a0f"/>
+  <!-- Hero background texture - dark foliage suggestion -->
+  <ellipse cx="650" cy="130" rx="200" ry="150" fill="#111e12" opacity="0.8"/>
+  <ellipse cx="150" cy="200" rx="180" ry="120" fill="#0f1c10" opacity="0.6"/>
+  <!-- Decorative botanical shapes -->
+  <ellipse cx="680" cy="90" rx="60" ry="20" fill="#1a3018" transform="rotate(-30 680 90)"/>
+  <ellipse cx="710" cy="110" rx="50" ry="16" fill="#1e3820" transform="rotate(-15 710 110)"/>
+  <ellipse cx="660" cy="70" rx="40" ry="14" fill="#162814" transform="rotate(-45 660 70)"/>
+  <ellipse cx="120" cy="230" rx="55" ry="18" fill="#182e16" transform="rotate(25 120 230)"/>
+  <ellipse cx="90" cy="210" rx="45" ry="14" fill="#1a3018" transform="rotate(40 90 210)"/>
+  <!-- Plate/dish on right -->
+  <circle cx="580" cy="180" r="80" fill="#131f14" stroke="#2a3e24" stroke-width="1"/>
+  <circle cx="580" cy="180" r="65" fill="#0f1a10"/>
+  <!-- Food presentation shapes -->
+  <ellipse cx="580" cy="188" rx="40" ry="28" fill="#2a3e1a" opacity="0.9"/>
+  <ellipse cx="572" cy="178" rx="22" ry="14" fill="#3d6028" opacity="0.85"/>
+  <ellipse cx="590" cy="182" rx="16" ry="10" fill="#c8982a" opacity="0.8"/>
+  <circle cx="568" cy="172" r="5" fill="#8b4513" opacity="0.9"/>
+  <circle cx="580" cy="168" r="4" fill="#c0392b" opacity="0.8"/>
+  <circle cx="593" cy="174" r="3.5" fill="#d4a054" opacity="0.9"/>
+  <ellipse cx="578" cy="195" rx="28" ry="8" fill="#1e3015" opacity="0.7"/>
+  <!-- Micro greens on plate -->
+  <line x1="562" y1="175" x2="558" y2="166" stroke="#4a8030" stroke-width="1.5"/>
+  <line x1="574" y1="170" x2="572" y2="160" stroke="#4a8030" stroke-width="1.5"/>
+  <line x1="585" y1="172" x2="588" y2="162" stroke="#5a9040" stroke-width="1.5"/>
+  <!-- Plate rim shadow -->
+  <circle cx="580" cy="180" r="80" fill="none" stroke="#1e3018" stroke-width="3" opacity="0.5"/>
+  <!-- Hero text left -->
+  <text x="60" y="118" font-size="10" fill="#b4a064" letter-spacing="4">SEASONAL TASTING MENU</text>
+  <text x="58" y="165" font-size="44" fill="#f0ead8" font-family="Georgia,serif" font-style="italic" font-weight="400">Where nature</text>
+  <text x="58" y="213" font-size="44" fill="#f0ead8" font-family="Georgia,serif" font-style="italic" font-weight="400">meets craft.</text>
+  <text x="60" y="248" font-size="12" fill="#8a9a7a" font-weight="300">An intimate dining experience rooted in the seasons.</text>
+  <!-- CTA buttons -->
+  <rect x="60" y="270" width="145" height="36" fill="#b4a064"/>
+  <text x="132" y="293" font-size="9" fill="#0d1a0f" text-anchor="middle" letter-spacing="2" font-weight="700">BOOK A TABLE</text>
+  <rect x="216" y="270" width="145" height="36" fill="none" stroke="rgba(180,160,100,0.5)" stroke-width="1"/>
+  <text x="288" y="293" font-size="9" fill="#b4a064" text-anchor="middle" letter-spacing="2">VIEW MENU</text>
+
+  <!-- ── INFO STRIP ── -->
+  <rect y="319" width="800" height="52" fill="#0a150b"/>
+  <rect y="319" width="800" height="1" fill="rgba(180,160,100,0.2)"/>
+  <rect y="370" width="800" height="1" fill="rgba(180,160,100,0.2)"/>
+  <text x="133" y="349" font-size="9" fill="#b4a064" text-anchor="middle" letter-spacing="2">OPEN HOURS</text>
+  <text x="133" y="362" font-size="9.5" fill="#8a9a7a" text-anchor="middle">Tue–Sun  6pm–11pm</text>
+  <rect x="266" y="329" width="1" height="32" fill="rgba(180,160,100,0.2)"/>
+  <text x="400" y="349" font-size="9" fill="#b4a064" text-anchor="middle" letter-spacing="2">LOCATION</text>
+  <text x="400" y="362" font-size="9.5" fill="#8a9a7a" text-anchor="middle">14 Grove Street, Melbourne</text>
+  <rect x="533" y="329" width="1" height="32" fill="rgba(180,160,100,0.2)"/>
+  <text x="666" y="349" font-size="9" fill="#b4a064" text-anchor="middle" letter-spacing="2">CONTACT</text>
+  <text x="666" y="362" font-size="9.5" fill="#8a9a7a" text-anchor="middle">+61 3 9000 1234</text>
+
+  <!-- ── MENU PREVIEW ── -->
+  <rect y="371" width="800" height="229" fill="#0f1c10"/>
+  <text x="400" y="400" font-size="10" fill="#b4a064" text-anchor="middle" letter-spacing="4">TONIGHT'S MENU</text>
+  <line x1="320" y1="408" x2="480" y2="408" stroke="rgba(180,160,100,0.3)" stroke-width="0.5"/>
+
+  <!-- Menu section left - Entrées -->
+  <text x="60" y="434" font-size="8" fill="#6a7a5a" letter-spacing="3">ENTRÉES</text>
+  <line x1="60" y1="440" x2="355" y2="440" stroke="rgba(255,255,255,0.07)" stroke-width="0.5"/>
+  <!-- Dish rows -->
+  <text x="60" y="460" font-size="11" fill="#e8e0cc" font-family="Georgia,serif" font-style="italic">Smoked Beet &amp; Whipped Goat's Curd</text>
+  <text x="355" y="460" font-size="11" fill="#b4a064" text-anchor="end">$24</text>
+  <text x="60" y="474" font-size="9" fill="#5a6a4a">Walnut soil · pickled mustard · sorrel oil</text>
+  <line x1="60" y1="484" x2="355" y2="484" stroke="rgba(255,255,255,0.07)" stroke-width="0.5"/>
+  <text x="60" y="502" font-size="11" fill="#e8e0cc" font-family="Georgia,serif" font-style="italic">King Prawn &amp; Bisque Velouté</text>
+  <text x="355" y="502" font-size="11" fill="#b4a064" text-anchor="end">$28</text>
+  <text x="60" y="516" font-size="9" fill="#5a6a4a">Tarragon foam · fennel · caviar</text>
+  <line x1="60" y1="526" x2="355" y2="526" stroke="rgba(255,255,255,0.07)" stroke-width="0.5"/>
+  <text x="60" y="544" font-size="11" fill="#e8e0cc" font-family="Georgia,serif" font-style="italic">Heritage Tomato Tart</text>
+  <text x="355" y="544" font-size="11" fill="#b4a064" text-anchor="end">$22</text>
+  <text x="60" y="558" font-size="9" fill="#5a6a4a">Burrata · basil oil · aged balsamic</text>
+
+  <!-- Divider line -->
+  <line x1="400" y1="420" x2="400" y2="575" stroke="rgba(180,160,100,0.15)" stroke-width="1"/>
+
+  <!-- Menu section right - Mains -->
+  <text x="430" y="434" font-size="8" fill="#6a7a5a" letter-spacing="3">MAINS</text>
+  <line x1="430" y1="440" x2="755" y2="440" stroke="rgba(255,255,255,0.07)" stroke-width="0.5"/>
+  <text x="430" y="460" font-size="11" fill="#e8e0cc" font-family="Georgia,serif" font-style="italic">Dry-Aged Duck Breast</text>
+  <text x="755" y="460" font-size="11" fill="#b4a064" text-anchor="end">$52</text>
+  <text x="430" y="474" font-size="9" fill="#5a6a4a">Celeriac purée · cherry jus · watercress</text>
+  <line x1="430" y1="484" x2="755" y2="484" stroke="rgba(255,255,255,0.07)" stroke-width="0.5"/>
+  <text x="430" y="502" font-size="11" fill="#e8e0cc" font-family="Georgia,serif" font-style="italic">Charred Wagyu Sirloin</text>
+  <text x="755" y="502" font-size="11" fill="#b4a064" text-anchor="end">$68</text>
+  <text x="430" y="516" font-size="9" fill="#5a6a4a">Truffle jus · potato dauphinoise · asparagus</text>
+  <line x1="430" y1="526" x2="755" y2="526" stroke="rgba(255,255,255,0.07)" stroke-width="0.5"/>
+  <text x="430" y="544" font-size="11" fill="#e8e0cc" font-family="Georgia,serif" font-style="italic">Wild Mushroom Risotto</text>
+  <text x="755" y="544" font-size="11" fill="#b4a064" text-anchor="end">$38</text>
+  <text x="430" y="558" font-size="9" fill="#5a6a4a">Porcini · aged pecorino · truffle oil</text>
+</svg>

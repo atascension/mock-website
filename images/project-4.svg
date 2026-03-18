@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="heroGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#2d2d2d"/>
+    </linearGradient>
+    <linearGradient id="cardGrad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0ebe4"/>
+      <stop offset="100%" style="stop-color:#e2d9ce"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Page background -->
+  <rect width="800" height="600" fill="#fafafa"/>
+
+  <!-- ── NAV BAR ── -->
+  <rect width="800" height="54" fill="#fff"/>
+  <rect y="54" width="800" height="1" fill="#ececec"/>
+  <!-- Hamburger / menu icon left -->
+  <rect x="28" y="21" width="20" height="2" fill="#1a1a1a"/>
+  <rect x="28" y="27" width="14" height="2" fill="#1a1a1a"/>
+  <rect x="28" y="33" width="20" height="2" fill="#1a1a1a"/>
+  <!-- Logo centred -->
+  <text x="400" y="34" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle" letter-spacing="6" font-family="Georgia,serif">ÉLAN</text>
+  <!-- Icons right -->
+  <!-- Search icon -->
+  <circle cx="726" cy="27" r="7" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+  <line x1="731" y1="32" x2="736" y2="37" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Cart icon -->
+  <rect x="749" y="20" width="14" height="12" rx="1" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+  <path d="M752 20 Q752 16 756 16 Q760 16 760 20" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- Cart badge -->
+  <circle cx="763" cy="18" r="5" fill="#c0392b"/>
+  <text x="763" y="21" font-size="6" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+
+  <!-- ── HERO SECTION ── -->
+  <rect y="55" width="800" height="245" fill="url(#heroGrad4)"/>
+  <!-- Large product image placeholder - left side -->
+  <rect x="0" y="55" width="390" height="245" fill="#2a2a2a"/>
+  <!-- Clothing silhouette shape -->
+  <rect x="145" y="90" width="100" height="8" rx="2" fill="#3d3d3d"/>
+  <path d="M155 98 L145 130 L160 130 L165 210 L225 210 L230 130 L245 130 L235 98 Z" fill="#454545"/>
+  <path d="M185 98 L185 88 Q195 80 205 88 L205 98 Z" fill="#3a3a3a"/>
+  <!-- Subtle grid texture on image -->
+  <line x1="130" y1="55" x2="130" y2="300" stroke="#333" stroke-width="0.5" opacity="0.4"/>
+  <line x1="260" y1="55" x2="260" y2="300" stroke="#333" stroke-width="0.5" opacity="0.4"/>
+  <!-- Image label -->
+  <text x="195" y="248" font-size="9" fill="#888" text-anchor="middle" letter-spacing="2">CAMPAIGN VISUAL</text>
+  <!-- Right side text -->
+  <text x="430" y="118" font-size="9" fill="#999" letter-spacing="3">NEW ARRIVAL</text>
+  <text x="430" y="158" font-size="34" fill="#fff" font-family="Georgia,serif" font-style="italic" font-weight="400">The Autumn</text>
+  <text x="430" y="196" font-size="34" fill="#fff" font-family="Georgia,serif" font-style="italic" font-weight="400">Edit 2025</text>
+  <text x="430" y="228" font-size="12" fill="#aaa" font-weight="300">Refined pieces for the season ahead.</text>
+  <!-- CTA buttons -->
+  <rect x="430" y="248" width="128" height="34" fill="#fff"/>
+  <text x="494" y="270" font-size="9.5" fill="#1a1a1a" text-anchor="middle" letter-spacing="1.5" font-weight="600">SHOP NOW</text>
+  <rect x="568" y="248" width="128" height="34" fill="none" stroke="#666" stroke-width="1"/>
+  <text x="632" y="270" font-size="9.5" fill="#ccc" text-anchor="middle" letter-spacing="1.5">LOOKBOOK</text>
+
+  <!-- ── CATEGORY STRIP ── -->
+  <rect y="300" width="800" height="46" fill="#fff"/>
+  <rect y="300" width="800" height="1" fill="#ececec"/>
+  <rect y="345" width="800" height="1" fill="#ececec"/>
+  <text x="108" y="328" font-size="9.5" fill="#1a1a1a" text-anchor="middle" letter-spacing="2" font-weight="600">WOMEN</text>
+  <text x="242" y="328" font-size="9.5" fill="#888" text-anchor="middle" letter-spacing="2">MEN</text>
+  <text x="376" y="328" font-size="9.5" fill="#888" text-anchor="middle" letter-spacing="2">ACCESSORIES</text>
+  <text x="510" y="328" font-size="9.5" fill="#888" text-anchor="middle" letter-spacing="2">SALE</text>
+  <text x="638" y="328" font-size="9.5" fill="#888" text-anchor="middle" letter-spacing="2">NEW IN</text>
+  <!-- Active underline -->
+  <rect x="74" y="343" width="68" height="2" fill="#1a1a1a"/>
+
+  <!-- ── PRODUCT GRID ── -->
+  <rect y="346" width="800" height="254" fill="#fafafa"/>
+  <text x="400" y="376" font-size="11" fill="#888" text-anchor="middle" letter-spacing="3">WOMEN'S COLLECTION</text>
+
+  <!-- Product Card 1 -->
+  <rect x="30" y="388" width="170" height="185" fill="url(#cardGrad4)" rx="2"/>
+  <!-- Product image area -->
+  <rect x="30" y="388" width="170" height="135" fill="#ddd4c8" rx="2"/>
+  <!-- Clothing shape in card -->
+  <path d="M90 405 L80 425 L90 425 L93 480 L137 480 L140 425 L150 425 L140 405 Z" fill="#bbb0a4" opacity="0.8"/>
+  <path d="M108 405 L108 396 Q115 390 122 396 L122 405 Z" fill="#b0a498" opacity="0.7"/>
+  <!-- Badge -->
+  <rect x="38" y="396" width="38" height="16" fill="#1a1a1a" rx="1"/>
+  <text x="57" y="407" font-size="7" fill="#fff" text-anchor="middle" letter-spacing="0.5">NEW IN</text>
+  <text x="115" y="540" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="500">Linen Blazer</text>
+  <text x="115" y="554" font-size="9" fill="#888" text-anchor="middle">Sand / Ecru</text>
+  <text x="115" y="568" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="600">$189</text>
+
+  <!-- Product Card 2 -->
+  <rect x="215" y="388" width="170" height="185" fill="#ede8e1" rx="2"/>
+  <rect x="215" y="388" width="170" height="135" fill="#c8d4d8" rx="2"/>
+  <!-- Dress shape -->
+  <path d="M278 405 L268 435 Q280 455 300 455 Q320 455 332 435 L322 405 Z" fill="#a8bcc4" opacity="0.8"/>
+  <path d="M290 405 L290 396 Q300 388 310 396 L310 405 Z" fill="#9ab0b8" opacity="0.7"/>
+  <rect x="223" y="396" width="38" height="16" fill="#c0392b" rx="1"/>
+  <text x="242" y="407" font-size="7" fill="#fff" text-anchor="middle" letter-spacing="0.5">SALE</text>
+  <text x="300" y="540" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="500">Slip Dress</text>
+  <text x="300" y="554" font-size="9" fill="#888" text-anchor="middle">Slate Blue</text>
+  <text x="300" y="568" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="600"><tspan fill="#c0392b">$89</tspan><tspan fill="#aaa" font-size="9" font-weight="400" dx="4">$140</tspan></text>
+
+  <!-- Product Card 3 -->
+  <rect x="400" y="388" width="170" height="185" fill="#eae3db" rx="2"/>
+  <rect x="400" y="388" width="170" height="135" fill="#e0d4c0" rx="2"/>
+  <!-- Coat shape -->
+  <path d="M455 403 L442 430 L455 430 L458 490 L512 490 L515 430 L528 430 L515 403 Z" fill="#c8b898" opacity="0.8"/>
+  <path d="M477 403 L477 394 Q485 386 493 394 L493 403 Z" fill="#bca880" opacity="0.7"/>
+  <text x="485" y="540" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="500">Trench Coat</text>
+  <text x="485" y="554" font-size="9" fill="#888" text-anchor="middle">Camel / Tan</text>
+  <text x="485" y="568" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="600">$345</text>
+
+  <!-- Product Card 4 -->
+  <rect x="585" y="388" width="170" height="185" fill="#e8e4e0" rx="2"/>
+  <rect x="585" y="388" width="170" height="135" fill="#d8d0c8" rx="2"/>
+  <!-- Trousers shape -->
+  <rect x="640" y="410" width="40" height="8" fill="#bbb4ac" rx="1"/>
+  <path d="M640 418 L635 490 L658 490 L670 453 L682 490 L705 490 L700 418 Z" fill="#b0a8a0" opacity="0.8"/>
+  <text x="670" y="540" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="500">Wide Leg Pants</text>
+  <text x="670" y="554" font-size="9" fill="#888" text-anchor="middle">Oatmeal</text>
+  <text x="670" y="568" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="600">$142</text>
+</svg>

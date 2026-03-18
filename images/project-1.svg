@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d1f0a"/>
+      <stop offset="100%" style="stop-color:#6b3520"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5a7a3a"/>
+      <stop offset="100%" style="stop-color:#3d5a25"/>
+    </linearGradient>
+    <linearGradient id="imgPlate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a96a"/>
+      <stop offset="100%" style="stop-color:#b07840"/>
+    </linearGradient>
+    <clipPath id="roundImg">
+      <circle cx="590" cy="210" r="130"/>
+    </clipPath>
+  </defs>
+
+  <!-- Page background -->
+  <rect width="800" height="600" fill="#fdf6ed"/>
+
+  <!-- ── NAV BAR ── -->
+  <rect width="800" height="52" fill="#fff" opacity="0.95"/>
+  <rect width="800" height="1" y="52" fill="#e8d9c4"/>
+  <!-- Logo mark -->
+  <circle cx="32" cy="26" r="10" fill="#8b4513" opacity="0.85"/>
+  <text x="48" y="32" font-size="13" font-weight="700" fill="#3d1f0a" font-family="Georgia,serif" letter-spacing="0.5">Flour &amp; Co.</text>
+  <!-- Nav links -->
+  <text x="560" y="30" font-size="10" fill="#7a5a3a" font-family="Arial,sans-serif" letter-spacing="1">MENU</text>
+  <text x="610" y="30" font-size="10" fill="#7a5a3a" font-family="Arial,sans-serif" letter-spacing="1">STORY</text>
+  <text x="663" y="30" font-size="10" fill="#7a5a3a" font-family="Arial,sans-serif" letter-spacing="1">ORDER</text>
+  <!-- CTA button in nav -->
+  <rect x="713" y="16" width="68" height="22" fill="#8b4513" rx="2"/>
+  <text x="747" y="31" font-size="9" fill="#fff" font-family="Arial,sans-serif" text-anchor="middle" letter-spacing="0.8">VISIT US</text>
+
+  <!-- ── HERO SECTION ── -->
+  <rect y="53" width="800" height="310" fill="#fdf0e0"/>
+
+  <!-- Decorative circle behind image -->
+  <circle cx="590" cy="210" r="145" fill="#f0d9b5" opacity="0.7"/>
+  <circle cx="590" cy="210" r="130" fill="url(#imgPlate)"/>
+
+  <!-- Mock food photo inside circle: layered shapes suggesting a pastry -->
+  <ellipse cx="590" cy="220" rx="90" ry="65" fill="#c4874a"/>
+  <ellipse cx="590" cy="210" rx="75" ry="52" fill="#e8b870"/>
+  <ellipse cx="590" cy="205" rx="55" ry="35" fill="#d4956a"/>
+  <!-- glaze drips -->
+  <ellipse cx="575" cy="192" rx="18" ry="12" fill="#b86820" opacity="0.8"/>
+  <ellipse cx="605" cy="195" rx="14" ry="9" fill="#b86820" opacity="0.7"/>
+  <!-- seeds/berries on top -->
+  <circle cx="570" cy="190" r="4" fill="#6b2020"/>
+  <circle cx="582" cy="186" r="3.5" fill="#6b2020"/>
+  <circle cx="595" cy="188" r="4" fill="#6b2020"/>
+  <circle cx="606" cy="192" r="3" fill="#882020"/>
+  <circle cx="560" cy="196" r="3" fill="#882020"/>
+  <!-- plate -->
+  <ellipse cx="590" cy="248" rx="100" ry="18" fill="#e8d2a8" opacity="0.6"/>
+
+  <!-- Leaf decoration -->
+  <ellipse cx="485" cy="155" rx="22" ry="9" fill="url(#leafGrad)" transform="rotate(-30 485 155)"/>
+  <ellipse cx="470" cy="170" rx="18" ry="7" fill="url(#leafGrad)" opacity="0.7" transform="rotate(-45 470 170)"/>
+  <ellipse cx="500" cy="140" rx="16" ry="6" fill="#4a6a2a" opacity="0.6" transform="rotate(-15 500 140)"/>
+
+  <!-- Hero text -->
+  <text x="75" y="130" font-size="11" fill="#8b4513" font-family="Arial,sans-serif" letter-spacing="3" font-weight="400">ARTISAN BAKERY</text>
+  <text x="72" y="175" font-size="48" fill="#3d1f0a" font-family="Georgia,serif" font-weight="400">Baked with</text>
+  <text x="72" y="225" font-size="48" fill="#3d1f0a" font-family="Georgia,serif" font-style="italic">love &amp; craft.</text>
+  <text x="74" y="267" font-size="13" fill="#7a5a3a" font-family="Arial,sans-serif" font-weight="300">Fresh from our oven every morning — sourdough,</text>
+  <text x="74" y="285" font-size="13" fill="#7a5a3a" font-family="Arial,sans-serif" font-weight="300">pastries, and seasonal specials.</text>
+
+  <!-- CTA buttons -->
+  <rect x="74" y="302" width="130" height="38" fill="#8b4513" rx="2"/>
+  <text x="139" y="326" font-size="10.5" fill="#fff" font-family="Arial,sans-serif" text-anchor="middle" letter-spacing="1">ORDER ONLINE</text>
+  <rect x="216" y="302" width="130" height="38" fill="none" stroke="#8b4513" stroke-width="1.5" rx="2"/>
+  <text x="281" y="326" font-size="10.5" fill="#8b4513" font-family="Arial,sans-serif" text-anchor="middle" letter-spacing="1">OUR MENU →</text>
+
+  <!-- ── FEATURES STRIP ── -->
+  <rect y="363" width="800" height="88" fill="#fff"/>
+  <rect y="363" width="800" height="1" fill="#e8d9c4"/>
+  <rect y="450" width="800" height="1" fill="#e8d9c4"/>
+
+  <!-- 4 feature icons -->
+  <!-- Icon 1 -->
+  <circle cx="133" cy="407" r="20" fill="#f5e8d4"/>
+  <text x="133" y="414" font-size="18" text-anchor="middle">🌾</text>
+  <text x="133" y="440" font-size="10" fill="#3d1f0a" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Local Grains</text>
+
+  <!-- Icon 2 -->
+  <circle cx="333" cy="407" r="20" fill="#f5e8d4"/>
+  <text x="333" y="414" font-size="18" text-anchor="middle">🧈</text>
+  <text x="333" y="440" font-size="10" fill="#3d1f0a" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Organic Butter</text>
+
+  <!-- Icon 3 -->
+  <circle cx="533" cy="407" r="20" fill="#f5e8d4"/>
+  <text x="533" y="414" font-size="18" text-anchor="middle">⏰</text>
+  <text x="533" y="440" font-size="10" fill="#3d1f0a" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Daily Fresh</text>
+
+  <!-- Icon 4 -->
+  <circle cx="700" cy="407" r="20" fill="#f5e8d4"/>
+  <text x="700" y="414" font-size="18" text-anchor="middle">📦</text>
+  <text x="700" y="440" font-size="10" fill="#3d1f0a" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Easy Ordering</text>
+
+  <!-- Dividers between features -->
+  <rect x="230" y="385" width="1" height="50" fill="#e8d9c4"/>
+  <rect x="430" y="385" width="1" height="50" fill="#e8d9c4"/>
+  <rect x="620" y="385" width="1" height="50" fill="#e8d9c4"/>
+
+  <!-- ── MENU GRID SECTION ── -->
+  <rect y="451" width="800" height="149" fill="#fdf6ed"/>
+  <text x="400" y="480" font-size="14" fill="#3d1f0a" text-anchor="middle" font-family="Georgia,serif" font-style="italic">This week's favourites</text>
+
+  <!-- 4 menu cards -->
+  <rect x="40" y="492" width="165" height="90" fill="#fff" rx="3"/>
+  <rect x="40" y="492" width="165" height="52" fill="#e8c49a" rx="3"/>
+  <rect x="40" y="540" width="165" height="4" fill="#e8c49a"/>
+  <text x="122" y="517" font-size="9" fill="#3d1f0a" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Sourdough Loaf</text>
+  <text x="122" y="557" font-size="9" fill="#3d1f0a" text-anchor="middle" font-family="Arial,sans-serif">Rye &amp; wheat blend</text>
+  <text x="122" y="573" font-size="10" fill="#8b4513" text-anchor="middle" font-family="Georgia,serif" font-weight="700">$8.50</text>
+
+  <rect x="220" y="492" width="165" height="90" fill="#fff" rx="3"/>
+  <rect x="220" y="492" width="165" height="52" fill="#d4956a" rx="3"/>
+  <rect x="220" y="540" width="165" height="4" fill="#d4956a"/>
+  <text x="302" y="517" font-size="9" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Croissant</text>
+  <text x="302" y="557" font-size="9" fill="#3d1f0a" text-anchor="middle" font-family="Arial,sans-serif">Classic French butter</text>
+  <text x="302" y="573" font-size="10" fill="#8b4513" text-anchor="middle" font-family="Georgia,serif" font-weight="700">$4.00</text>
+
+  <rect x="400" y="492" width="165" height="90" fill="#fff" rx="3"/>
+  <rect x="400" y="492" width="165" height="52" fill="#b8d4a0" rx="3"/>
+  <rect x="400" y="540" width="165" height="4" fill="#b8d4a0"/>
+  <text x="482" y="517" font-size="9" fill="#3d1f0a" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Matcha Roll</text>
+  <text x="482" y="557" font-size="9" fill="#3d1f0a" text-anchor="middle" font-family="Arial,sans-serif">White choc filling</text>
+  <text x="482" y="573" font-size="10" fill="#8b4513" text-anchor="middle" font-family="Georgia,serif" font-weight="700">$5.50</text>
+
+  <rect x="580" y="492" width="165" height="90" fill="#fff" rx="3"/>
+  <rect x="580" y="492" width="165" height="52" fill="#c4a0c8" rx="3"/>
+  <rect x="580" y="540" width="165" height="4" fill="#c4a0c8"/>
+  <text x="662" y="517" font-size="9" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Blueberry Muffin</text>
+  <text x="662" y="557" font-size="9" fill="#3d1f0a" text-anchor="middle" font-family="Arial,sans-serif">Wild berry + lemon</text>
+  <text x="662" y="573" font-size="10" fill="#8b4513" text-anchor="middle" font-family="Georgia,serif" font-weight="700">$4.50</text>
+</svg>
